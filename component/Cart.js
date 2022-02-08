@@ -63,7 +63,7 @@ const Cart = () => {
                       dispatch({
                         type: "REMOVE_FROM_CART",
                         payload: prod,
-                      })
+                      }) 
                     }
                   >
                     <AiFillDelete fontSize="20px" />
